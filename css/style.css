@@ -983,23 +983,23 @@ footer .credits a {
 ======================================*/
 /* Estilos generales del contenedor de mensajes */
 .status-container {
-  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
 }
 
 /* Estilos para mensajes de éxito */
 .success-message {
-  color: #2ecc71; /* Verde para mensajes de éxito */
-  background-color: #dff0d8; /* Fondo verde claro */
-  border: 1px solid #d6e9c6; /* Borde verde claro */
+  color: #2ecc71; 
+  background-color: #dff0d8; 
+  border: 1px solid #d6e9c6; 
 }
 
 /* Estilos para mensajes de error */
 .error-message {
-  color: #a94442; /* Rojo para mensajes de error */
-  background-color: #f2dede; /* Fondo rojo claro */
-  border: 1px solid #ebccd1; /* Borde rojo claro */
+  color: #a94442; 
+  background-color: #f2dede; 
+  border: 1px solid #ebccd1; 
 }
 
 .status-container {
