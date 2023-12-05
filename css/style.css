@@ -981,39 +981,31 @@ footer .credits a {
 /*======================================
 //--//-->   CONtaCT FORM
 ======================================*/
-
-#sendmessage {
-  color: #164274;
-  border: 1px solid #164274;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+/* Estilos generales del contenedor de mensajes */
+.status-container {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-#errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+/* Estilos para mensajes de éxito */
+.success-message {
+  color: #2ecc71; /* Verde para mensajes de éxito */
+  background-color: #dff0d8; /* Fondo verde claro */
+  border: 1px solid #d6e9c6; /* Borde verde claro */
 }
 
-#sendmessage.show,
-#errormessage.show,
-.show {
-  display: block;
+/* Estilos para mensajes de error */
+.error-message {
+  color: #a94442; /* Rojo para mensajes de error */
+  background-color: #f2dede; /* Fondo rojo claro */
+  border: 1px solid #ebccd1; /* Borde rojo claro */
 }
 
-.validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
+.status-container {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 /*======================================
