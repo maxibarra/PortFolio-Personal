@@ -102,8 +102,8 @@
                         <p><span class="title-s">Perfil: </span> <span>Frontend
                             developer</span></p>
                         <p><span class="title-s">Email: </span> <span>maxi.8379@gmail.com</span></p>
-                        <p><span class="title-s">Telofono: </span> <span>(11)
-                            39476425</span></p>
+                        <p><span class="title-s">Telofono: </span> <span>(+54)
+                            1139476425</span></p>
                         <a href="files/Ibarra-Maximiliano-DevFrontend-2023.pdf"
                           class="button button-a button-big button-rouded"
                           target="_blank" download>Descargar CV</a>
@@ -282,17 +282,18 @@
                       </h5>
                     </div>
                     <div>
-                      <form action
+                      <form action="https://formspree.io/f/xyyqrybw" id="contactForm"
                         method="POST" role="form" class="contactForm">
-                        <div id="sendmessage">Tu mensaje fue enviado, Gracias!</div>
-                        <div id="errormessage">Error al enviar el mensaje</div>
+
+                        <div id="my-form-status" class="status-container"></div>
+
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
                               <input type="text" name="name"
                                 class="form-control" id="name"
                                 placeholder="Tu Nombre" data-rule="minlen:4"
-                                data-msg="Please enter at least 4 chars" />
+                                data-msg="Please enter at least 4 chars"/>
                               <div class="validation"></div>
                             </div>
                           </div>
@@ -301,7 +302,7 @@
                               <input type="email" class="form-control"
                                 name="email" id="email" placeholder="Tu Email"
                                 data-rule="email"
-                                data-msg="Porfavor escribi un mail valido" />
+                                data-msg="Porfavor escribi un mail valido"/>
                               <div class="validation"></div>
                             </div>
                           </div>
@@ -319,7 +320,7 @@
                               <textarea class="form-control" name="message"
                                 rows="5" data-rule="required"
                                 data-msg="Por favor escribi un mensaje"
-                                placeholder="Mensaje"></textarea>
+                                placeholder="Mensaje" required></textarea>
                               <div class="validation"></div>
                             </div>
                           </div>
@@ -329,6 +330,7 @@
                               Mensaje</button>
                           </div>
                         </div>
+                       
                       </form>
                     </div>
                   </div>
@@ -347,8 +349,8 @@
                       </p>
                       <ul class="list-ico">
                         <li><span class="ion-ios-location"></span> Capilla del Señor, Buenos Aires</li>
-                        <li><span class="ion-ios-telephone"></span> (11)
-                          39476425</li>
+                        <li><span class="ion-ios-telephone"></span> (+54)
+                          1139476425</li>
                         <li><span class="ion-email"></span> maxi.8379@gmail.com</li>
                       </ul>
                     </div>
@@ -381,7 +383,9 @@
       </footer>
     </section>
     <!--/ Section Contact-footer End /-->
-
+    <script>
+  
+  </script>
     <a href="#" class="back-to-top"><i class="ion-chevron-up"></i></a>
     <div id="preloader"></div>
 
@@ -397,7 +401,7 @@
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
     <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js"></script>
+      <script src="contactform/contactform.js"></script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
