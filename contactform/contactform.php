@@ -23,14 +23,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Configura las cabeceras del correo
     $cabeceras_correo = "De: $name <$email>";
-
-    // Envía el correo
-    if (mail($destinatario, $asunto, $contenido_correo, $cabeceras_correo)) {
-        echo "OK";
-    } else {
-        echo "Hubo un problema al enviar el mensaje. Por favor, intenta de nuevo más tarde.";
-    }
-} else {
-    echo "Acceso denegado.";
-}
 ?>
